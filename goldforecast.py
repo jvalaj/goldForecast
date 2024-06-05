@@ -20,7 +20,7 @@ from sklearn import metrics
 """Data Collection and Processing"""
 
 # loading the csv data to a Pandas DataFrame
-gold_data = pd.read_csv('/content/gld_price_data.csv')
+gold_data = pd.read_csv('gld_price_data.csv')
 
 # print first 5 rows in the dataframe
 gold_data.head()
